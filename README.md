@@ -1,5 +1,5 @@
 # CS50 TSE
-## Student name (GitHub username)
+## Shaamil Karim Shaw Alem (shaamil101)
 
 The assignment and Specs are in a [public repo](https://github.com/CS50winter2023/labs/tse).
 Do not clone that repo; view it on GitHub.
