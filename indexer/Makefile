@@ -29,5 +29,6 @@ test:
 
 clean:
 	rm -f indexer
+	rm -f indextest
 	rm -f *~ *.o
 	rm -rf *.dSYM
