@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "unistd.h": "c",
+        "mem.h": "c",
+        "webpage.h": "c",
+        "pagedir.h": "c",
+        "counters.h": "c",
+        "index.h": "c",
+        "word.h": "c"
+    }
+}

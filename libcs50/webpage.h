@@ -145,7 +145,7 @@ char* webpage_getNextWord(webpage_t* page, int* pos);
  *   pos: pointer to an int representing current position in html buffer;
  *        should be 0 on the initial call.
  *        After return, *pos is the index after the URL returned.
- *
+ * 
  * We return:
  *   pointer to string containing the next URL, if any; otherwise NULL.
  *

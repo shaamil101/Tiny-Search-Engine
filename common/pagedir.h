@@ -19,7 +19,17 @@
 #include "../libcs50/webpage.h"
 #include "../libcs50/bag.h"
 #include "../libcs50/hashtable.h"
-
+/**************** pagedir_validate ****************/
+/* Validate whether the directory can be opened
+ *
+ * Caller provides:
+ *   a char* pagedirectory
+ * We return:
+ *  false if the directory was not valid;
+ *  true iff valid.
+ * 
+ */
+bool pagedir_validate(const char* pageDirectory);
 /**************** pagedir_init ****************/
 /* construct the pathname for the .crawler file in that directory
 *open the file for writing; on error, return false.
