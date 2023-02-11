@@ -17,7 +17,7 @@ Recall the [Assignment](https://github.com/cs50spring2021/tse-labs/tree/main/cra
 10/10 points
 
 * successfully compiles all programs from the top-level directory, but compiling within each folder leads to `make` errors
-* if you want to use libcs50-given.a, modify the libcs50 Makefile: 
+* if you want to use `libcs50-given.a`, modify the libcs50 Makefile: 
 
 ```bash
 # $(LIB): $(OBJS)
@@ -32,7 +32,7 @@ $(LIB): libcs50-given.a
 
 2.5/3 points
 
-* -0.5 missing a README.md in `common` directory
+* -0.5 missing a README in common directory
 * should include `REQUIREMENTS.md`, `DESIGN.md`, and `IMPLEMENTATION.md` in crawler directory
 
 ## (12) Testing
