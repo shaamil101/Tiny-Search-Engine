@@ -9,7 +9,7 @@ echo Testing by passing one arg
 ./indexer test
 echo Testing by passing three args
 ./indexer test test test
-echo Testing by passing unvalid directory
+echo Testing by passing invalid directory
 ./indexer ../crawler/test_data/test1/nothing fakedir 
 
 echo test 0: Memory valgrind test with scrape depth 1

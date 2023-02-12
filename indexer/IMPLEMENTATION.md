@@ -41,8 +41,7 @@ Persistent storage:
 All output is written out to `indexFilename`.
 
 Testing Plan
-The indexer can be tested by:
-reading from a crawler directory, writing a file.
+We have used mutliple tests in the testing.sh file. The first is a test by passing either no arguments or too few or too many arguments. Then we pass an invalid directory and then we run the a memory valgrind on the indexer and multiple crawler directories that are available by runnning crawler.
 
 Error handling and recovery:
 * In all cases of failure, including memory allocation and sudden exits, we print out an error message and exit with a non-zero status.
