@@ -1,5 +1,12 @@
-# CS50 Winter 2021
+# CS50 Winter 2021 - Querier README
 ## Shaamil Karim Shaw Alem 
+
+
+```
+****************
+* EXTENSION USED
+****************
+```
 
 ### querier
 
