@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # This file contains normal and edge test cases for querier.c
 
 # I'm making use of the crawler test with to scrape, depth 1 output and
